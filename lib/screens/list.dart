@@ -4,6 +4,8 @@ import 'package:oct_10/screens/buttons.dart';
 import 'package:oct_10/screens/des2.dart';
 import 'package:oct_10/screens/des3.dart';
 import 'package:oct_10/screens/design1.dart';
+import 'package:oct_10/screens/app.dart';
+import 'package:oct_10/screens/text_widget.dart';
 
 class ListScreen extends StatelessWidget {
   const ListScreen({super.key});
@@ -64,7 +66,7 @@ class ListScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => MyApp()),
+                  MaterialPageRoute(builder: (context) => const DemoScreen()),
                 );
               },
             ),
